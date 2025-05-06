@@ -17,3 +17,9 @@ html(lang="zh-CN", theme=theme.defaultTheme.replaceAll("-mode", ""))
 
     include components/float-btn
     include components/float-indicator
+
+//- 在head部分添加CSS
+link(rel="stylesheet", href=url_for("/css/hitokoto.css"))
+
+//- 在body底部添加JS
+script(src=url_for("/js/hitokoto.js"))
